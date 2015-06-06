@@ -2,7 +2,7 @@ plot4 <- function() {
   png("plot4.png", width=480, height=480, res=72)
   par(mfrow = c(2, 2), cex.lab = 1, cex.axis = 1, oma = c(0,0,0,0), mar = c(4,4,1,1))
   #
-  plot(dati$Date_C,dati$Global_active_power,type="n", ylab="",xlab="")
+  plot(dati$Date_C,dati$Global_active_power,type="n", ylab="Global Active Power",xlab="")
   lines(dati$Date_C,dati$Global_active_power)
   #
   plot(dati$Date_C, dati$Voltage, xlab="datetime", ylab="Voltage", type="n")
