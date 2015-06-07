@@ -1,3 +1,6 @@
+# This is the main programs that loads data and creates the 
+# plots using functions defined in plotX.R
+
 # Source function
 source("./loaddata.R")
 source("./plot1.R")

@@ -1,3 +1,6 @@
+# Create plot3. Used by main.R that loads the data.
+#
+
 plot3 <- function() {
   png("plot3.png", width=480, height=480, res=72)
   with(dati, {

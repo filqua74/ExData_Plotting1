@@ -1,3 +1,6 @@
+# Create plot4. Used by main.R that loads the data.
+#
+
 plot4 <- function() {
   png("plot4.png", width=480, height=480, res=72)
   par(mfrow = c(2, 2), cex.lab = 1, cex.axis = 1, oma = c(0,0,0,0), mar = c(4,4,1,1))

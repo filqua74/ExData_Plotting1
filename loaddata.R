@@ -1,3 +1,6 @@
+# Defines the function neeeded to load the data.
+#
+
 # Load data
 loaddata <- function() {
   cl <- c("character","character","numeric","numeric","numeric","numeric","numeric","numeric","numeric")
